@@ -1,0 +1,195 @@
+doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"content="width=device-width,initial-scale=1" />
+  <title>Ageless Strength | Strength Training in Nanton, Alberta</title>
+  <meta name="description" content="Safe, effective, efficient strength training for adults 50+ in Nanton, Alberta. One-on-one and small group sessions. Free consultation + introductory workout." />
+
+  <style>
+    :root{
+      --bg:#0b1f1c;
+      --bg2:#0f2a26;
+      --card:#0e2622;
+      --text:#eaf3f2;
+      --muted:#b9d2cd;
+      --accent:#d7a84a;
+      --accent2:#2fb7a6;
+      --line:rgba(255,255,255,.10);
+      --shadow:0 12px 35px rgba(0,0,0,.35);
+      --radius:18px;
+      --max:1100px;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:var(--font);
+      color:var(--text);
+      background: linear-gradient(180deg, var(--bg), var(--bg2));
+      line-height:1.5;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:24px}
+    .nav{
+      position:sticky; top:0; z-index:10;
+      backdrop-filter: blur(10px);
+      background: rgba(11,31,28,.8);
+      border-bottom:1px solid var(--line);
+    }
+    .nav-inner{
+      max-width:var(--max); margin:0 auto; padding:14px 24px;
+      display:flex; align-items:center; justify-content:space-between;
+    }
+    .brand{display:flex; align-items:center; gap:12px; text-decoration:none}
+    .logo{
+      width:42px; height:42px; border-radius:12px;
+      background: linear-gradient(135deg, var(--accent2), var(--accent));
+      display:grid; place-items:center; font-weight:800; color:#0b1f1c;
+    }
+    .btn{
+      padding:12px 16px; border-radius:14px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color:#0b1f1c; font-weight:800; text-decoration:none;
+      box-shadow: var(--shadow);
+    }
+    .btn.secondary{
+      background: transparent; color:var(--text);
+      border:1px solid var(--line); box-shadow:none;
+    }
+
+    h1{font-size:clamp(34px,4vw,54px); margin:12px 0}
+    h2{font-size:28px; margin:0 0 10px}
+    .lead{color:var(--muted); font-size:18px}
+    section{padding:28px 0}
+    .grid{display:grid; grid-template-columns:1.2fr .8fr; gap:24px}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+
+    .card{
+      background: rgba(255,255,255,.04);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:18px;
+    }
+    .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:16px}
+    .stat{text-align:center; padding:12px; border-radius:14px; border:1px solid var(--line)}
+    .stat b{display:block}
+
+    .cols{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+    @media(max-width:900px){.cols{grid-template-columns:1fr}}
+
+    .price-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px}
+    @media(max-width:900px){.price-grid{grid-template-columns:1fr}}
+
+    footer{border-top:1px solid var(--line); margin-top:32px; padding:32px 0}
+    .small{font-size:13px; color:var(--muted)}
+  </style>
+</head>
+
+<body>
+
+<div class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#">
+      <div class="logo">AS</div>
+      <b>Ageless Strength</b>
+    </a>
+    <a class="btn" href="#contact">Book Free Consult</a>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section class="grid">
+    <div>
+      <h1>Stay Strong. Live Long.</h1>
+      <p class="lead">
+        Safe, personalized strength training for adults 50+ in Nanton.
+        Especially welcoming to women in their 50s–70s who want to feel stronger,
+        steadier, and more confident in daily life.
+      </p>
+      <a class="btn" href="#contact">Free Consultation + Intro Workout</a>
+
+      <div class="stats">
+        <div class="stat"><b>30 min</b>Full-body sessions</div>
+        <div class="stat"><b>1–2×/week</b>Simple & effective</div>
+        <div class="stat"><b>No</b>Membership fees</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <b>Who we help</b>
+      <p class="small">
+        Beginners, those returning after time off, and anyone who wants
+        strength without intimidation or overwhelm.
+      </p>
+      <ul class="small">
+        <li>Joint-friendly, slow-controlled training</li>
+        <li>Coached every rep</li>
+        <li>Leave feeling energized — not exhausted</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Muscle is medicine</h2>
+    <div class="cols">
+      <div class="card">🦴 Stronger bones</div>
+      <div class="card">⚖️ Better balance</div>
+      <div class="card">🚶 More independence</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="cols">
+      <div class="card">1️⃣ Free consultation</div>
+      <div class="card">2️⃣ Personalized plan</div>
+      <div class="card">3️⃣ Train 1–2× per week</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Services & pricing</h2>
+    <div class="price-grid">
+      <div class="card">
+        <b>One-on-one training</b>
+        <p><strong>$40 per session</strong></p>
+        <ul class="small">
+          <li>30-minute full-body session</li>
+          <li>Fully personalized & coached</li>
+          <li>Billed in 4-week blocks</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <b>Small group training (2–4)</b>
+        <p><strong>$25 per person / session</strong></p>
+        <ul class="small">
+          <li>30-minute sessions</li>
+          <li>Train with friends</li>
+          <li>Fun, supportive, motivating</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Book your free consultation</h2>
+    <p class="small">
+      Email us to book your free consultation and introductory workout.
+    </p>
+    <p><strong>📧 Agelessstrengthnanton@gmail.com</strong></p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap small">
+    © Ageless Strength — Nanton, Alberta<br>
+    Safe • Personalized • Fully Supported
+  </div>
+</footer>
+
+</body>
+</html>
